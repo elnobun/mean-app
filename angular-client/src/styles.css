@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  padding-top: 80px;
+  margin-bottom: 60px;
+  /*background: rgba(238, 238, 238, 0.19);*/
+  background: #f1f1f1;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.alert{
+  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+  border-radius: 0px;
+  text-align: center;
+}
+
+.reg-border{
+  background: rgb(255, 255, 255);
+  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+  /*height: 470px;*/
+}
+
+#toast-container.toast-top-center {
+  top: 10%;
+}
+
+#toast-container .toast {
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.30) !important;
+  border-radius: 0 !important;
+}
+
+/*.spacing {*/
+/*position: absolute;*/
+/*top: 70px;*/
+/*left: 5px;*/
+/*}*/

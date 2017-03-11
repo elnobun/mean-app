@@ -1,0 +1,24 @@
+<div class="jumbotron text-center">
+  <h1>Shopping Height Website</h1>
+  <p>A MEAN application built from scratch and running in Docker Engine.</p>
+  <div *ngIf="!authService.loggedIn()">
+    <a class="btn btn-primary" [routerLink]="['/register']">Register</a>
+    <a class="btn btn-default" [routerLink]="['/login']">Login</a>
+  </div>
+</div>
+
+<!-- Row section -->
+  <div class="row">
+    <div class="col-md-4">
+      <h4>Express Backend</h4>
+      <p>Powerful Node.js and Express server using Mongoose for organizing models and querying the database.</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Angular-CLI * latest</h4>
+      <p>Angular-Cli generates components, services and lots more. Local dev server and easy compilation</p>
+    </div>
+    <div class="col-md-4">
+      <h4>JWT Tokens</h4>
+      <p>Full featured authentication using JSON web tokens. Login and store user data</p>
+    </div>
+  </div>

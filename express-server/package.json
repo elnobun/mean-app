@@ -1,0 +1,25 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "MEAN Authentication App",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "bluebird": "^3.5.0",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.11.0",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Ellis Enobun",
+  "license": "ISC"
+}
